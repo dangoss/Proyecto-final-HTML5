@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+      <svg width="400px" height="200px">
+        <image xlink:href="imagenes/logo1.svg" width="400px" height="400px" x="-50" y="-50"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Daniel Gosselain</h2>
+      <h3>Fecha de nacimiento:06/07/1988</h3>
+      <h3>Lugar de nacimiento:Caracas, Venezuela</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educacion</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Educación</h2>
+      <table border="1">
+        <tr>
+          <td>Año</td>
+          <td>Institución</td>
+          <td>Lugar</td>
+          <td>Culminó?</td>
+        </tr>
+        <tr>
+          <td>2006</td>
+          <td>Colegio el Angel</td>
+          <td>Caracas</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Instituto CBtech</td>
+          <td>Caracas</td>
+          <td>Si</td>
+        </tr>
+      </table>
+    </section>
+    <br>
+    <section>
+      <form class="" action="index.html" method="post">
+        <fieldset>
+          <h2>Agregar Estudios</h2>
+          <label for="año">Año</label>
+          <select class="" name="año">
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+          </select>
+          <br>
+          <br>
+          <label for="institución">Institución</label>
+          <input type="text" required>
+          <br>
+          <br>
+          <label for="lugar">Lugar</label>
+          <textarea name="lugar" rows="2" cols="40"></textarea>
+          <br>
+          <br>
+          <label for="culmino">Culminó?</label>
+          <input type="radio" name="culmino" value="si">Si
+          <input type="radio" name="culmino" value="no">No
+          <br>
+          <br>
+          <input type="submit" name="enviar" value="Enviar">
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>Informacion de contacto:| email: dgosselain@gmail.com | tlf:0412-5435125 | Facebook:Daniel Gosselain. </p>
+    </footer>
+  </body>
+</html>
